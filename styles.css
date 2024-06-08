@@ -1,0 +1,33 @@
+/* shared styles */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Happy New Year section */
+.header{
+    background-image: url(resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 600px;
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.banner{
+    color: white;
+    text-align: center;
+    background-color: #17161984;
+    border-radius: 20px;
+    height: 600px;
+    width: 1320px;
+}
+.banner h4{
+    padding-top: 200px;
+    font-size: 25px;
+    font-weight: 200;
+}
+.banner h1{
+    font-size: 50px;
+    font-weight: 700;
+}
