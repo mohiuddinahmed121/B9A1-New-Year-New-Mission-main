@@ -13,6 +13,7 @@ body{
     width: 1320px;
     margin: 0 auto;
     margin-top: 50px;
+    
 }
 .banner{
     color: white;
@@ -29,5 +30,81 @@ body{
 }
 .banner h1{
     font-size: 50px;
+    font-weight: 700;
+}
+
+/* holiday-deals section */
+
+.holiday-deals{
+    margin-top: 100px;
+    text-align: center;
+}
+.holiday-deals h1{
+    color: #FF0000;
+    font-size: 50px;
+    font-weight: 900;
+}
+.holiday-deals h3{
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: 100;
+}
+.holiday-deals h2{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* Welcome to midnight section */
+
+.midnight-section{
+    background-image: url(resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 600px;
+    width: 1320px;
+    margin: 100px auto;
+    color: aliceblue;
+}
+.midnight-all{
+    background-color: #1716198d;
+    border-radius: 20px;
+    height: 600px;
+    width: 1320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.midnight-description h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.btn-midnight{
+    color: white;
+    border: none;
+    background: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* best-gift-section */
+
+.best-gift-section{
+    height: 1320px;
+    width: 1320px;
+    margin: 0 auto;
+}
+.gift-part img{
+    height: 424px;
+    width: 430px;
+}
+.gift-part h3{
+    font-size: 15px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.gift-part h1{
+    font-size: 30px;
     font-weight: 700;
 }
