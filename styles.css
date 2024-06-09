@@ -80,6 +80,7 @@ body{
     font-size: 50px;
     font-weight: 700;
 }
+
 .btn-midnight{
     color: white;
     border: none;
@@ -91,7 +92,7 @@ body{
 /* best-gift-section */
 
 .best-gift-section{
-    height: 1320px;
+    height: 1100px;
     width: 1320px;
     margin: 0 auto;
 }
@@ -105,6 +106,124 @@ body{
     color: #FF0000;
 }
 .gift-part h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.gift-part p{
+    color: #474747;
+}
+.gift-part-img img:hover{
+    border-radius: 20px;
+    border: 5px solid rgba(40, 43, 43, 0.566);
+    cursor: pointer;
+}
+
+/* subscribe-section */
+
+.subscribe-section{
+    background-color: #f1d1d1;
+    height: 616px;
+    width: 1320px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.Subscribe-details{
+    padding-top: 150px;
+    text-align: center;
+}
+.Subscribe-details h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.Subscribe-details p{
+    color: #474747;
+}
+
+/* input field section */
+
+.input-field{
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 50px;
+    padding-left: 30px;
+}
+.btn-subscribe{
+    position: relative;
+    right: 100px;
+    height: 52px;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: #FF0000;
+    border-radius:0  50px 50px 0;
+}
+
+
+/* footer section */
+.footer-section{
+    background-color: black;
+    height: 600px;
+    width: 1500px;
+}
+.footer-description{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    color: white;
+}
+.footer-img{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.web{
+    color: white;
+    text-decoration: none;
+}
+.footer-last{
+    padding-top: 30px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+.footer-section hr{
+    margin: 30px;
+    color: #474747;
+}
+
+/* best-offer-section */
+
+.best-offer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 460px;
+    width: 1320px;
+    margin: 0 auto;
+}
+.offer-comming{
+    padding-right: 100px;
+}
+.offer-comming h4{
+    color: red;
+    font-size: 15px;
+    font-weight: 500;
+}
+.offer-comming h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.offer-img img{
+    margin-right: 250px;
+    border-radius: 200px;
+    border: 20px  solid red;
+}
+.offer-year h1{
+    color: red;
     font-size: 30px;
     font-weight: 700;
 }
